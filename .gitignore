@@ -1,0 +1,47 @@
+# ============ SEGREDOS ============
+.env
+.env.*
+!.env.example
+
+# ============ DADOS LOCAIS ============
+aulas/
+Backup*/
+livros_e_fontes/
+chroma_db/
+resumos/
+*.pdf
+*.db
+*.sqlite
+*.sqlite3
+
+# ============ BACKUPS ============
+*backup*
+*.bak
+*.old
+*.orig
+*~
+
+# ============ PYTHON ============
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ============ LOGS / SAÍDAS ============
+*.log
+logs/
+*.csv
+*.xlsx
+*.anki2
+*.apkg
+collection.anki2
+
+# ============ SISTEMA / EDITOR ============
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
